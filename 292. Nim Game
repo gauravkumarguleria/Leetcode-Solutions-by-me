@@ -1,0 +1,9 @@
+class Solution {
+    public boolean canWinNim(int n) {
+      //n = 1 --> 1 win
+      //n = 2 --> 2 win
+      //n = 3 --> 3 win
+      //n = 4 --> loose
+      return (n%4 != 0);
+    }
+}
