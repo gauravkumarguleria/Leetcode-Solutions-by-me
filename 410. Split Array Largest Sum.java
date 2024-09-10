@@ -9,7 +9,7 @@ class Solution {
         }   
         return (int)left;
     }
-
+ 
 
     public long max(int[] books){
         long ans = 0;
