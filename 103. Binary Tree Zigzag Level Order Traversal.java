@@ -30,7 +30,7 @@ class Solution {
  *     }
  * }
  */
-
+  
         List<List<Integer>> levels = new ArrayList<>();
         if(root == null) return levels;
 
