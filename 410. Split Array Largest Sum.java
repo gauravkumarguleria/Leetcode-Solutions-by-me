@@ -3,7 +3,7 @@ class Solution {
         long left = max(books) , right= sum(books);
         while(left<=right){
             long mid = (left+right)/2;
-            if(isPossible(books, studs,mid) == true)
+            if(isPossible(books, studs,mid) == true) 
                 right = mid-1;
             else left = mid+1;
         }   
